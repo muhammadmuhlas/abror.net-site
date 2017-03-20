@@ -1,0 +1,32 @@
+/* ALT PAGE HEADER */
+
+.altpageheader {
+	padding: 40px 0;
+	background: #f9f9f9;
+	color: #373737;
+	text-align:center;
+	text-transform:capitalize;
+	font-weight: 400;
+	font-size: 18px;
+	font-family: $font_header;
+	line-height: normal;
+
+	i {
+		margin-right: 10px;
+		color: #b5bcbf;
+		font-size: 18px;
+	}
+
+	.postcount {
+		display: inline-block;
+		margin-left: 15px;
+		padding: 6px 16px;
+		border-radius: 100px;
+		background: #4a5153;
+		color: #ffffff;
+		vertical-align: 3px;
+		font-size: 12px;
+		font-family: $font_sub_header;
+	}
+
+}

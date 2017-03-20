@@ -1,0 +1,18 @@
+/* PAGE WRAPPER */
+
+.pagewrapper {
+	position: relative;
+	left: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+
+	@include transition(left 500ms ease-in-out);
+
+	&.slide {
+		left: -400px;
+		cursor: pointer;
+
+		@media (max-width: 420px) {
+			left: -325px;
+		}
+	}
+}
